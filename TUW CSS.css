@@ -1,0 +1,72 @@
+body {
+    background-color: #ffffff; /* White background */
+    color: white; /* This might need to be adjusted if the background is also white */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #dff3dc; /* Light green shade */
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav img.logo {
+    margin-bottom: 20px; /* Space between logo and nav links */
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    list-style: none; /* Removes default list bullet styling */
+}
+
+nav ul li {
+    display: inline-block; /* Aligns list items in a row (horizontal alignment) */
+    margin-right: 20px; /* Space between the links */
+}
+
+nav ul li a {
+    color: black; /* Text color for links (changed from white for visibility) */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Removes margin from the last item to avoid extra spacing on the right */
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    color: black; /* Ensures text in section is visible against a white background */
+}
+
+button {
+    background-color: #9ee7a8; /* Vibrant green button */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+footer {
+    font-size: 14px;
+    color: black; /* Footer text color changed to black for visibility */
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+.service-icon {
+    width: 70px;
+    height: auto;
+
+}
